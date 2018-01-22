@@ -1,0 +1,32 @@
+/*****************
+  Main
+ *****************/
+#main #slider2         { width: 920px; height: 280px; list-style: none; }
+
+
+
+/* Set slider2 panel sizes, Main & FX demo pages */
+#slider2 .panel1 { width: 920px; height: 280px;}
+#slider2 .panel2 { width: 920px; height: 280px; }
+#slider2 .panel3 { width: 920px; height: 280px; }
+#slider2 .panel4 { width: 920px; height: 280px; } 
+#slider2 .panel5 { width: 920px; height: 280px; } 
+
+/* Change metallic slider defaults to show thumbnails -
+  using #featuredcti (page wrapper) to increase this CSS priority */
+#featuredcti div.anythingSlider-metallic .thumbNav a { background-image: url(); height: 52px; width: 30px; border: #000 1px solid; text-transform:uppercase;}
+#featuredcti div.anythingSlider-metallic .thumbNav a span { text-indent: 0; }
+.thumbNav {text-transform:uppercase;}
+/* border around image to show current page */
+#featuredcti div.anythingSlider-metallic .thumbNav a:hover,
+#featuredcti div.anythingSlider-metallic .thumbNav a.cur { border-color: #fff; }
+/* reposition the start/stop button */
+#featuredcti div.anythingSlider-metallic .start-stop { margin-top: 15px; }
+
+
+#featuredcti #slider2        {
+	width: 928px;
+	height: 235px;
+	list-style: none;
+}
+

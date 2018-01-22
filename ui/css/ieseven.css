@@ -1,0 +1,4 @@
+#PageContainer {
+	overflow: visible; /* hidden */
+} /* #PageContainer required by SuperSized jQuery */
+

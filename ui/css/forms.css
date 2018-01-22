@@ -1,0 +1,136 @@
+﻿/*-------------------------------------------------------------------------------------*/
+
+/*Form styles */
+.request {
+	width:500px;
+}
+
+.request th{
+	text-align:left;
+	border-bottom:1px solid #ccc;
+	padding:25px 0 4px 0;
+}
+
+.request td {
+	padding:10px 0 0px 0;
+}
+
+.request th a:hover,
+.request th a:visited:hover {
+	font:small/18px Arial,Verdana,Helvetica,sans-serif;
+	font-weight:bold;
+	color:#666;
+	text-decoration:underline;
+}
+
+.required {
+ 	color: #990000;
+}
+.required.input {
+	border: #990000 1px solid;
+}
+select { 
+	border: #999999 1px solid;
+	font: 11px Arial,Helvetica,sans-serif;
+}
+textarea { 
+	background-color: #FFFFFF; 
+	border: #666666 1px solid;
+	padding: 2px;
+}
+textarea.TextAreaLarge {
+	font: 12px Arial,Helvetica,sans-serif;
+	border: #999999 1px solid;
+	color: #000000;
+	background: #FFFFFF;
+	padding: 2px 0px 2px 5px;
+	width: 250px;
+	text-align:left;
+	height:100px;
+}
+input {
+	font: 11px Arial,Helvetica,sans-serif;
+	border: #666666 1px solid;
+	color: #000000;
+	background: none;
+	padding: 0px 0px 2px 5px;
+}
+input.CheckBox {
+	border: none;
+	color: #000000;
+	padding: 0;
+	background:none;
+}
+input.TextFieldLarge {
+	font: 12px Arial,Helvetica,sans-serif;
+	border: #999999 1px solid;
+	color: #000000;
+	background: #FFFFFF;
+	padding: 2px 0px 2px 5px;
+	width: 250px;
+	text-align:left;
+}
+input.TextFieldMedium {
+	font: 12px Arial,Helvetica,sans-serif;
+	border: #999999 1px solid;
+	color: #000000;
+	background: #FFFFFF;
+	padding: 2px 0px 2px 5px;
+	width: 180px;
+	text-align:left;
+}
+input.TextFieldSmall {
+	font: 12px Arial,Helvetica,sans-serif;
+	border: #999999 1px solid;
+	color: #000000;
+	background: #FFFFFF;
+	padding: 2px 0px 2px 5px;
+	width: 120px;
+	text-align:left;
+}
+input.PhoneNumber {
+	font: 12px Arial,Helvetica,sans-serif;
+	border: #999999 1px solid;
+	color: #000000;
+	background: #FFFFFF;
+	padding: 2px 0px 2px 5px;
+	width: 35px;
+	text-align:left;
+}
+select.SelectBoxLarge {
+	font: 12px Arial,Helvetica,sans-serif;
+	border: #999999 1px solid;
+	color: #000000;
+	background: #FFFFFF;
+	padding: 2px 0px 2px 0px;
+	width: 257px;
+	text-align:left;
+}
+select.SelectBoxMedium {
+	font: 12px Arial,Helvetica,sans-serif;
+	border: #999999 1px solid;
+	color: #000000;
+	background: #FFFFFF;
+	padding: 2px 0px 2px 0px;
+	width: 150px;
+	text-align:left;
+}
+select.SelectBoxSmall {
+	font: 12px Arial,Helvetica,sans-serif;
+	border: #999999 1px solid;
+	color: #000000;
+	background: #FFFFFF;
+	padding: 2px 0px 2px 0px;
+	width: 95px;
+	text-align:left;
+}
+
+.errorMessage {
+	margin:5px 0;
+	padding:10px;
+	border:2px solid #990000;
+	width:250px;
+	background-color:#F2F2F2;
+}
+
+/*end form styles*/

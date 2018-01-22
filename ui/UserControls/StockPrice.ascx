@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="StockPrice.ascx.cs" Inherits="Sikorsky_Life_PortWebApp.UI.UserControls.StockPrice" %>
+<div class="Date" id="Date"  ><a target="_blank" href="http://investors.utc.com/"><strong>UTX</strong> &nbsp;&nbsp;&nbsp;&nbsp;<asp:Literal ID="litPrice" runat="server"> </asp:Literal></a></div>

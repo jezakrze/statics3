@@ -1,0 +1,190 @@
+/*-------------------------------------------------------------------------------------*/
+/* Footer Nav */
+
+.FooterContainer.FullWidthCarriage {
+/*	background-color: #CC99FF;*/
+}
+
+.MainFooter {
+	display: block;
+	width: 950px;
+	margin: 70px auto 0;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+.HomeFooterContainerLeft {
+	width: 610px;
+	display:block;
+	float:left;
+	margin: 0;
+	padding: 0px 0px 40px 20px;
+}
+
+.HomeFooterContainerRight {
+	display:block;
+	float:left;
+	width: 270px; /*width: 270px;*/
+	margin: 0;
+	padding: 0 20px 40px 30px;
+}
+
+.HomeFooter {
+	width: 610px;
+	display:block;
+	float:left;
+	margin: 0;
+	padding: 0;
+	background: none;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: normal;
+	font-weight: normal;
+
+}
+
+.HomeFooter a:link,
+.HomeFooter a:visited {
+	padding: 0px 8px 0px 8px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.HomeFooter a:hover,
+.HomeFooter a:visited:hover {
+	color: #005dab;
+	text-decoration: none;
+}
+
+.HomeFooter a:first-child {
+	padding-left: 0;
+}
+
+.HomeFooter2 {
+	width: 610px;
+	display:block;
+	float:left;
+	margin: 0;
+	padding: 0;
+	background: none;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: normal;
+	font-weight: normal;
+}
+
+.HomeFooter2 a:link {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #999999;
+	padding: 0px 0px 0px 0px;
+}
+
+.HomeFooter2 a:visited {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 0px 0px 0px;
+}
+
+.HomeFooter2 a:hover {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 0px 0px 0px;
+}
+
+.HomeFooter2 a:active {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #999999;
+	padding: 0px 0px 0px 0px;
+}
+
+.HomeFooter2 .spacing {
+	padding: 0px 10px 0px 10px;
+}
+
+.Footer {
+	width: 950px;
+	display:block;
+	float:left;
+	padding: 40px 0px 20px 0px;
+	background: none;
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	color: #999999;
+	text-align:center;
+}
+
+.Footer a:link {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #999999;
+	padding: 0px 10px 0px 10px;
+}
+
+.Footer a:visited {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+}
+
+.Footer a:hover {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+}
+
+.Footer a:active {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #999999;
+	padding: 0px 10px 0px 10px;
+}
+
+.Footer2 {
+	width: 950px;
+	display:block;
+	float:left;
+	padding: 0px 0px 20px 0px;
+	background: url(../images/footer_swoosh.gif) no-repeat;
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	color: #999999;
+	text-align:center;
+}
+
+.Footer2 a:link {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #999999;
+	padding: 0px 0px 0px 0px;
+}
+
+.Footer2 a:visited {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 0px 0px 0px;
+}
+
+.Footer2 a:hover {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 0px 0px 0px;
+}
+
+.Footer2 a:active {
+	font: normal 8pt arial, helvetica, verdana, san-serif; 
+	text-decoration: none;
+	color: #999999;
+	padding: 0px 0px 0px 0px;
+}
+
+.Footer2 .spacing {
+	padding: 0px 10px 0px 10px;
+}

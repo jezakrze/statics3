@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<script src="/ui/scripts/sitescripts.js" type="text/javascript"></script>
+<asp:Literal ID="litMeta" runat="server" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ 
+
+<link rel="stylesheet" href="/ui/css/stylesheet.css" />
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+	<script type="text/javascript" src="/ui/scripts/selectivizr.js"></script>
+<![endif]-->
+
+<!--[if lte IE 6]>
+	<link rel="stylesheet" type="text/css" href="/ui/css/iesix.css">
+	<script src="/ui/scripts/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script src="/ui/scripts/DD_belatedPNG_array.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/ui/scripts/quickmenu.js"></script>
+
+<link rel="shortcut icon" href="../../temp/ui/Templates/favicon.ico" type="image/vnd.microsoft.icon" />
+<!--<link rel="stylesheet" href="/ui/css/supersized.css" type="text/css" media="screen" />-->
+
+<link href="/ui/css/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
+
+<link href="/ui/greybox/gb_styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    var GB_ROOT_DIR = "/ui/greybox/";
+</script>
+<script type="text/javascript" src="/ui/scripts/jquery-1.4.4.min.js"></script>
+<script type="text/javascript"  src="/ui/scripts/effects.core.js"></script>
+<script  type="text/javascript" src="/ui/scripts/effects.slide.js"></script>
+<script type="text/javascript" src="/ui/scripts/swfobject.js"></script>
+
+<!--<script type="text/javascript" src="/ui/scripts/supersized.3.0.js"></script>-->
+
+<link rel="stylesheet" type="text/css" href="/ui/
+greybox/shadowbox-3.0.3/shadowbox.css">
+<script type="text/javascript" src="/ui/
+greybox/shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>
+
+<script type="text/javascript" src="/ui/greybox/AJS.js"></script>
+<script type="text/javascript" src="/ui/greybox/AJS_fx.js"></script>
+<script type="text/javascript" src="/ui/greybox/gb_scripts.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+        
+ 
+<body>
+<div class="BgImage_001" runat="server" id="body">
+<form id="form1" runat="server">
+
+        
+<div class="HeaderContainer FullWidthCarriage">
+<!-- HeaderContainer -->
+
+	<div class="Header">
+	<!-- Header Starts -->
+
+
+		<div class="TopContainer">
+		<!-- TopContainer Starts -->
+
+		<div class="Logo"><a href="/index.html"><img src="/ui/images/img_Logo.gif" alt="LifePort Inc. | A Sikorsky Aerospace Services Company" title="LifePort Inc. | A Sikorsky Aerospace Services Company" border="0" /></a></div>
+
+		<div class="LogoEnflite"><a href="/index.html"><img src="/ui/images/img_Logo_enflite.gif" alt="Enflite | A Sikorsky Aerospace Services Company" title="Enflite | A Sikorsky Aerospace Services Company" border="0" /></a></div>
+
+			<div class="GlobalNavContainer">
+				<TemplateControls:GlobalNav ID="global" runat="server" />
+				<TemplateControls:StockPrice id="stockprice" runat="server" />
+			</div>
+		</div>
+
+	<TemplateControls:TopNav ID="TopNav" runat="server" />
+
+		<!-- Header Ends -->
+	</div>
+
+<!-- HeaderContainer Ends  -->
+</div>
+
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+
+
+<div class="FooterContainer FullWidthCarriage">
+<!-- HomeFooterContainer Starts -->
+	<div class="MainFooter">
+
+	<!-- FooterMain Starts -->
+
+	<div class="HomeFooterContainerLeft">
+		<!-- HomeFooterContainerLeft Starts -->
+
+		<TemplateControls:FooterNav ID="footer" runat="server" />
+
+		<div class="HomeFooter2">
+			<!-- HomeFooter2 Starts -->
+			© 2011 Sikorsky Aircraft Corporation
+			<!-- HomeFooter2 Ends -->
+		</div>
+		<!-- HomeFooterContainerLeft Ends -->
+
+	</div>
+
+	<div class="HomeFooterContainerRight">
+		<!-- HomeFooterContainerRight Starts -->
+		<div class="image"><img src="/ui/images/img_FooterLogo.png" alt="Sikorsky Aerospace Services | A Sikorsky Company" /></div>			
+		<!-- HomeFooterContainerRight Ends -->
+	</div>
+
+	</div>
+	<!-- MainFooter Ends -->
+
+<!-- FooterContainer Ends -->
+</div>
+
+</form>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21726174-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+
